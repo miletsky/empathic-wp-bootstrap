@@ -11,6 +11,7 @@ Consider using https://github.com/miletsky/wordpress-html5-boilerplate as your t
 
 ## Bare installation
 * Configure virtual host with root in public
+* Update public/wp-config.php with your actual database credentials
 * Pass through WordPress installer
 * Use import/export for database migrations
 
