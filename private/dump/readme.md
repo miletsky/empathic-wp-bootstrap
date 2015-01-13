@@ -1,3 +1,4 @@
+### Overview
 On export script makes a full db dump and replaces site url with specific token.
 On import it takes the site url from the current db, replaces the token in the dump with this site url
 and imports it. Also, there is a dump.json file which contains serialized data.
@@ -36,6 +37,5 @@ Note: this file is in the .gitignore because it can be quite big. To download it
 `scp user@server:/abs-path-to-the-site/private/dump/data/uploads.zip private/dump/data/uploads.zip`
 Or download it in any other way convenient for you like ftp into private/dump/data.
 
-### To import uploads run
-`php private/dump/import.php -u`
+To import uploads run `php private/dump/import.php -u`
 The import will work as usual, it will just unzip uploads.zip file (if it exists) to the wp-content/uploads in addition.
