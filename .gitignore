@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+*.dat
+/private/other
+/public/wp-config.php
+/public/wp-content/uploads
