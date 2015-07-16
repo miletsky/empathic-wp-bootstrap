@@ -1,6 +1,6 @@
 ## Overview
 Bootstrap to create WordPress based projects  
-WordPress version - 4.2
+WordPress 4.2.2
 
 ## Supplementary stuff
 Consider using https://github.com/miletsky/wordpress-html5-boilerplate as your theme bootstrap
