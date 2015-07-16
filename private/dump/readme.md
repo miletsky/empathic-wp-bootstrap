@@ -33,7 +33,7 @@ This script can also create a zip of wp-content/uploads folder.
 To export uploads run `php private/dump/export.php -u`
 It will create private/dump/data/uploads.zip file.
 
-Note: this file is in the .gitignore because it can be quite big. To download it run  
+Note: consider adding this file is in the .gitignore because it can be quite big. To download it you could run  
 `scp user@server:/abs-path-to-the-site/private/dump/data/uploads.zip private/dump/data/uploads.zip`
 Or download it in any other way convenient for you like ftp into private/dump/data.
 
