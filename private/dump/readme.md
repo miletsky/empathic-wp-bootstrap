@@ -21,7 +21,7 @@ Note: You must have already installed database. The scripts take db setting from
 
 ### How to import
 * git pull
-* Run in console 'php private/dump/import.php'.
+* Run in console `php private/dump/import.php`.
 * ...
 * Profit!
 
@@ -33,7 +33,7 @@ This script can also create a zip of wp-content/uploads folder.
 To export uploads run `php private/dump/export.php -u`
 It will create private/dump/data/uploads.zip file.
 
-Note: consider adding this file is in the .gitignore because it can be quite big. To download it you could run  
+Note: consider adding this file to the .gitignore because it can be quite big. To download it you could run  
 `scp user@server:/abs-path-to-the-site/private/dump/data/uploads.zip private/dump/data/uploads.zip`
 Or download it in any other way convenient for you like ftp into private/dump/data.
 
