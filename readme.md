@@ -19,7 +19,9 @@ Consider using https://github.com/miletsky/wordpress-html5-boilerplate as your t
 * Create a database and import any Wordpress db, it will be completely wiped with import script. Or manually create `wp_options` table with the 'siteurl' option.
 * Update 'siteurl' to your actual domain.
 * Update `public/wp-config.php` with your actual database credentials.
-* Run `php private/dump/import.php`, note that **it requres the wp-config.php and `wp_options` table with actual siteurl**.
+* Run `php private/dump/import.php`, note that it requres the wp-config.php and `wp_options` table with actual siteurl.
 * Create `public/wp-content/uploads`, `chown www-data.www-data public/wp-content/uploads && chmod 755 public/wp-content/uploads`.
+
 ---
+
 ***Update this readme with particular project info***
