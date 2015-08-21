@@ -51,24 +51,25 @@ function str_replace_form_import($val, $search, $replace)
     return $val;
 }
 
+
 function log($text, $color) {
- $out = "";
- switch($color) {
-  case "g":
-   $out = "[42m"; //Green background
-   break;
-  case "r":
-   $out = "[41m"; //Red background
-   break;
-  case "y":
-   $out = "[43m"; //Yellow background
-   break;
-  case "b":
-   $out = "[44m"; //Blue background
-   break;
-  default:
-   echo $text . "\n";
-   return;
- }
- echo chr(27) . "$out" . "$text" . chr(27) . "[0m\n";
+    $out = "";
+    switch($color) {
+        case "g":
+            $out = "[42m"; //Green background
+            break;
+        case "r":
+            $out = "[41m"; //Red background
+            break;
+        case "y":
+            $out = "[43m"; //Yellow background
+            break;
+        case "b":
+            $out = "[44m"; //Blue background
+            break;
+        default:
+            echo $text . "\n";
+            return;
+    }
+    echo chr(27) . "$out" . "$text" . chr(27) . "[0m\n";
 }
