@@ -4,6 +4,11 @@ require_once __DIR__ . '/lib/bootstrap.php';
 
 log("Starting import...");
 
+if(!file_exists(__DIR__ . '/data/dump.sql')) {
+    log('Error: missing dump.sql', 'r');
+    exit();
+}
+
 $tmp_dir = rtrim(sys_get_temp_dir(), '/') . '/wp-backup/' . DB_NAME;
 if(!is_dir($tmp_dir)) {
     mkdir($tmp_dir, 0777, true);
