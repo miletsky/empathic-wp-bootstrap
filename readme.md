@@ -6,10 +6,16 @@
     * `protected/other` - is ignored by git, some project related but not intended for commiting stuff can be put there
 
 ## Initial setup
-1. Ask Heath or Victor for recent database dump and uploads from the server
-2. Import the dump, unzip uploads to `public/wp-content/uploads`
-3. Create `publid/wp-confing.php`, specify db credentials, set up your local multisite in case of multisite instance (check **Multisite config** section below)
-4. Update blog database with your local dev domain (see instructions below)
+
+* New project:
+    1. Install Wordpress to `public`
+    2. Set up multisite stuff in `public/wp-confing.php` in case of multisite instance (check **Multisite config** section below)
+
+* Existing project:
+    1. Ask administrators for recent database dump and uploads from the server
+    2. Import the dump, unzip uploads to `public/wp-content/uploads`
+    3. Create `public/wp-confing.php`, specify db credentials, set up your local multisite in case of multisite instance (check **Multisite config** section below)
+    4. Update blog database with your local dev domain (see instructions below)
 
 ## Updating db with local dev domains
 Two options are available:
