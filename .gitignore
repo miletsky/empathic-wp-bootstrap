@@ -1,6 +1,8 @@
 .idea
 .DS_Store
-*.dat
-/private/other
+.dat
+/protected/other
 /public/wp-config.php
 /public/wp-content/uploads
+/public/wp-content/cache
+/public/wp-content/upgrade
